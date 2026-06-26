@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I'm Sorry</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>I'm Sorry, My Love</h1>
+      <p class="intro">Our relationship is precious. I want to say sorry, and I hope we can rebuild trust and happiness together.</p>
+      <div class="details-card">
+        <p><strong>Relationship started:</strong> <span id="started">29 September 2025</span></p>
+        <p><strong>Years together:</strong> <span id="years">3 years</span></p>
+        <p><strong>Our bond:</strong> Best friends and true partners.</p>
+      </div>
+    </section>
+
+    <section class="message-panel">
+      <h2>Send a heartfelt apology</h2>
+      <form id="apology-form">
+        <label for="name">Her name</label>
+        <input id="name" name="name" type="text" placeholder="Enter her name" value="My Love" required />
+
+        <label for="apology">Your apology message</label>
+        <textarea id="apology" name="apology" rows="5" placeholder="Write your apology here" required>
+I am truly sorry for the hurt I caused. You mean the world to me, and I want us to be close again.
+        </textarea>
+
+        <button type="submit">Send Apology</button>
+      </form>
+      <div id="result" class="result"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
