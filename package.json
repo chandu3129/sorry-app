@@ -1,0 +1,12 @@
+{
+  "name": "apology-site",
+  "version": "1.0.0",
+  "description": "A heartfelt apology website with frontend and backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4"
+  }
+}
